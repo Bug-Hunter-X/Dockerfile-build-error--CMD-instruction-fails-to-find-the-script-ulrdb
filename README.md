@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles related to the working directory and how to fix it. The original Dockerfile attempts to run a python script but fails to locate the script due to the working directory being incorrect. The solution provides a corrected Dockerfile that sets the working directory explicitly using WORKDIR.
